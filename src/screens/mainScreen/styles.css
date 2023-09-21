@@ -1,0 +1,346 @@
+.dots {
+  height: 100px;
+  width: 150px;
+  position: absolute;
+  bottom: 110px;
+  right: 0;
+}
+
+.buttonContainer {
+  border-radius: 25px;
+  height: 50px;
+  background-color: #52e6b1;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 0;
+}
+
+.regularText {
+  font-size: 16px;
+  color: #6d7283;
+  width: 50%;
+}
+
+.LogoAndImgContainer {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputContainer {
+  border-radius: 25px;
+  height: 50px;
+  border: 2px solid gray;
+  width: 70%;
+  justify-content: space-between;
+  display: flex;
+  padding-left: 20px;
+  background-color: #2b344b;
+  border: 0;
+}
+
+.whiteText {
+  color: white;
+}
+
+.inputContainer input {
+  background-color: #2b344b;
+  width: 100%;
+  border-width: 0;
+}
+
+.mobileC {
+  display: none;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 70vh;
+}
+
+.container {
+  color: white;
+  display: flex;
+  min-height: 100vh;
+  background-color: #121725;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin: 15px;
+}
+
+.laptopContainer {
+  display: block;
+}
+
+.mainText {
+  margin: 0;
+  font-size: 40px;
+  color: #5db097;
+}
+
+.podcastsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  color: #5c637e;
+  font-size: 8px;
+}
+
+.wallpaper {
+  position: absolute;
+  top: 150px;
+  bottom: 150px;
+  right: 0;
+  width: 60%;
+}
+
+.wallpaper img {
+  height: 100%;
+  width: 100%;
+}
+
+.podcastsLogo {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin: 10px;
+}
+
+.contentDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #121725;
+  width: 50%;
+  position: absolute;
+  left: 150px;
+  bottom: 150px;
+  top: 270px;
+  text-align: left;
+  overflow: scroll;
+  padding: 30px;
+  text-align: start;
+}
+
+.logoImgC {
+  position: absolute;
+  top: 120px;
+  left: 150px;
+}
+
+.contentDetails p{
+  margin: 0;
+}
+
+.contentContainer{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+margin: 20px;
+}
+
+@media screen and (max-width: 465px) {
+  .mobileContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  .regularText {
+    font-size: 14px;
+    color: #6d7283;
+    width: 100%;
+  }
+
+  .laptopContainer {
+    display: none;
+  }
+  .inputContainer {
+    display: none;
+  }
+
+  .mobileC {
+    display: inline;
+  }
+
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    color: #5c637e;
+    font-size: 8px;
+  }
+  .podcastsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+  }
+
+  .mainText {
+    font-size: 20px;
+    color: #5db097;
+  }
+
+  .container {
+    align-items: center;
+    color: white;
+    display: flex;
+    min-height: 100vh;
+    background:  url("../../../public/podcasts_m.png")  ;
+    background-size: 100% 100%;
+    flex-direction: column;
+    text-align: center;
+    opacity: 0.5;
+  }
+
+  .podcastsLogo {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin: 10px;
+  }
+
+  .inputForMobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .inputn {
+    border-radius: 25px;
+    height: 50px;
+    background-color: #2b344b;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0;
+    margin-bottom: 30px;
+  }
+  .buttonContainer {
+    border-radius: 25px;
+    height: 50px;
+    background-color: #52e6b1;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0;
+  }
+}
+
+
+@media screen and (max-width: 1025px) {
+  .mainText{
+
+    font-size: 30px;
+    color: #5db097;
+
+  }
+  .regularText {
+    font-size: 14px;
+    color: #6d7283;
+    min-width: 80%;
+  }
+
+  .wallpaper {
+    position: absolute;
+    top: 0;
+    bottom: 150px;
+    right: 0;
+    width: 60%;
+  }
+
+  .logoImgC {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .contentDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    position: absolute;
+    left: 20px;
+    bottom: 150px;
+    top: 270px;
+    padding: 30px;
+    background-color: #121725;
+    overflow: scroll;
+  }
+
+  .dots {
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .mainText{
+
+    font-size: 30px;
+    color: #5db097;
+
+  }
+  .regularText {
+    font-size: 14px;
+    color: #6d7283;
+    min-width: 80%;
+  }
+
+  .wallpaper {
+    position: absolute;
+    top: 0;
+    bottom: 150px;
+    right: 0;
+    width: 60%;
+  }
+
+  .logoImgC {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .contentDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    position: absolute;
+    left: 20px;
+    bottom: 150px;
+    top: 270px;
+    padding: 30px;
+    background-color: #121725;
+    overflow: scroll;
+  }
+
+  .dots {
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+  }
+}
